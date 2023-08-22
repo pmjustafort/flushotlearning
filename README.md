@@ -18,6 +18,7 @@ In the United States, a coordinated effort involving the government, healthcare 
 
 ## **Data**
 ![image](https://github.com/pmjustafort/flushotlearning/assets/137816262/4cec3603-2fd3-425a-ba7e-f6f7fafdfd83) 
+
 ![image](https://github.com/pmjustafort/flushotlearning/assets/137816262/1ca50a0c-d008-4eb8-b0be-29b251f37c85)
 
 
