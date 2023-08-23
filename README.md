@@ -42,14 +42,19 @@ For our exploration we're given three CSV's:
 Model performance metrics
 Our analysis involved the evaluation of multiple machine-learning models using several essential performance metrics. These metrics include Test Recall, Train Recall, Test F1, Train F1, Test ROC AUC, and Train ROC AUC. Among the models, "Random Forest (New Features)" and "Tuned Random Forest (New Features)" consistently displayed the highest performance, excelling in Test Recall and achieving a strong Test F1-score. These metrics highlight the potential of these models in effectively identifying individuals likely to take the seasonal flu vaccine. Additionally, both Random Forest models demonstrated robust training data fit, as evident from their high Train ROC AUC scores. Further details and insights can be derived from these metrics to guide our ongoing analysis.
 
+# ** Metrics Visualization For All The Models
 
 Model Comparison
 In our rigorous model evaluation, we assessed the performance of various machine learning models using key metrics, including Test Recall, Train Recall, Test F1, Train F1, Test ROC AUC, and Train ROC AUC. Among these models, "Random Forest (New Features)" and "Tuned Random Forest (New Features)" consistently outperformed the others. They achieved the highest Test Recall, with scores of 0.731 and 0.729, respectively, showcasing their proficiency in correctly identifying individuals likely to take the seasonal flu vaccine. Notably, "Tuned Random Forest (New Features)" achieved the highest Test F1-score at 0.754, highlighting an impressive balance between precision and recall. A significant contributor to their exceptional performance was the incorporation of feature engineering and hyperparameter tuning, which significantly enhanced their predictive capabilities. These techniques allowed the models to capture intricate patterns within the data, resulting in improved accuracy in vaccine uptake predictions. Further analysis is underway to gain deeper insights from these high-performing models and guide our ongoing efforts.
+
+# ** Models Comparison Visualization
 
 
 Feature Importance
 In our analysis, we conducted a thorough examination of feature importance within our best-performing model, "Tuned Random Forest (New Features)." This model exhibited exceptional predictive capabilities and understanding the importance of different features sheds light on the factors driving vaccine uptake predictions.
 We discovered that several key feature categories played a significant role in the model's predictions:
+
+# ** Features Importance Visualization (Feature Score Or Coefficients)
 
 -Behavioral Features: Variables related to individual behaviors, including “behavioral_avoidance”, “behavioral_face_mask”, “behavioral_wash_hands”, and “behavioral_large_gatherings”, were found to be highly influential. These features reflect proactive measures individuals take to protect themselves against the flu, thus impacting their likelihood of taking the seasonal flu vaccine.
 
