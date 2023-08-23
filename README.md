@@ -51,15 +51,15 @@ Feature Importance
 In our analysis, we conducted a thorough examination of feature importance within our best-performing model, "Tuned Random Forest (New Features)." This model exhibited exceptional predictive capabilities and understanding the importance of different features sheds light on the factors driving vaccine uptake predictions.
 We discovered that several key feature categories played a significant role in the model's predictions:
 
-	Behavioral Features: Variables related to individual behaviors, including “behavioral_avoidance”, “behavioral_face_mask”, “behavioral_wash_hands”, and “behavioral_large_gatherings”, were found to be highly influential. These features reflect proactive measures individuals take to protect themselves against the flu, thus impacting their likelihood of taking the seasonal flu vaccine.
+-Behavioral Features: Variables related to individual behaviors, including “behavioral_avoidance”, “behavioral_face_mask”, “behavioral_wash_hands”, and “behavioral_large_gatherings”, were found to be highly influential. These features reflect proactive measures individuals take to protect themselves against the flu, thus impacting their likelihood of taking the seasonal flu vaccine.
 
-	Opinion Features: Features such as “opinion_h1n1_vacc_effective”, “opinion_h1n1_risk”, and “opinion_seas_vacc_effective” were also prominent. These variables capture individuals' perceptions of vaccine effectiveness and the perceived risk associated with the flu, which can strongly influence their vaccine decisions.
+-Opinion Features: Features such as “opinion_h1n1_vacc_effective”, “opinion_h1n1_risk”, and “opinion_seas_vacc_effective” were also prominent. These variables capture individuals' perceptions of vaccine effectiveness and the perceived risk associated with the flu, which can strongly influence their vaccine decisions.
 
-	Doctor Recommendation: The presence of a doctor recommendation (doctor_recc_h1n1) emerged as a significant predictor. A healthcare professional's endorsement can carry substantial weight in influencing an individual's decision to take the vaccine.
+-Doctor Recommendation: The presence of a doctor recommendation (doctor_recc_h1n1) emerged as a significant predictor. A healthcare professional's endorsement can carry substantial weight in influencing an individual's decision to take the vaccine.
 
-	Education Level: Education, as represented by the "education" feature, was observed to have a notable impact. Higher levels of education often correlate with better health literacy and a greater understanding of the benefits of vaccination.
+-Education Level: Education, as represented by the "education" feature, was observed to have a notable impact. Higher levels of education often correlate with better health literacy and a greater understanding of the benefits of vaccination.
 
-	H1N1 Vaccine History: Individuals' prior experience with the H1N1 vaccine (h1n1_vaccine) was found to be influential, suggesting that past vaccination behavior is a strong predictor of seasonal flu vaccine uptake.
+-H1N1 Vaccine History: Individuals' prior experience with the H1N1 vaccine (h1n1_vaccine) was found to be influential, suggesting that past vaccination behavior is a strong predictor of seasonal flu vaccine uptake.
 
 Additionally, there is an unidentified sector of activities that appears to have a significant impact on vaccine uptake. Unfortunately, due to limitations in the available data, we are unable to identify or analyze this sector further. Understanding the nature and characteristics of this unidentified sector could provide valuable insights into vaccination behavior but remains a challenge without additional information.
 
@@ -76,13 +76,13 @@ In light of these findings, we conclude our analysis on a compelling note, recog
 
 Our current analysis has offered valuable insights into predicting seasonal flu vaccine uptake. To advance our understanding and practical impact, we suggest the following next steps:
 
-	Feature Interaction Analysis: Investigate how various features interact to influence vaccine uptake, revealing nuanced decision-making factors.
+-Feature Interaction Analysis: Investigate how various features interact to influence vaccine uptake, revealing nuanced decision-making factors.
 
-	The sector of Activities Identification: Explore alternative data sources or methods to uncover details about the unidentified sector of activities, enhancing the depth of our predictions.
+-The sector of Activities Identification: Explore alternative data sources or methods to uncover details about the unidentified sector of activities, enhancing the depth of our predictions.
 
-	Temporal Analysis: Examine how vaccine uptake patterns change over time and identify temporal factors influencing decisions.
+-Temporal Analysis: Examine how vaccine uptake patterns change over time and identify temporal factors influencing decisions.
 
-	Real-World Validation: Collaborate with healthcare practitioners to validate our model in real-world healthcare settings, optimizing it for practical deployment.
+-Real-World Validation: Collaborate with healthcare practitioners to validate our model in real-world healthcare settings, optimizing it for practical deployment.
 
 These steps will expand our research and contribute to a more comprehensive understanding of seasonal flu vaccine uptake, potentially informing evidence-based strategies for public health initiatives.
 
