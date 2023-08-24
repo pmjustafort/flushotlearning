@@ -1,0 +1,11 @@
+,Feature Importance
+opinion_seas_vacc_effective,0.19457448325215157
+opinion_seas_risk,0.1924928464809026
+doctor_recc_seasonal,0.1725147740519803
+age_group_65+ Years,0.07942368036399297
+opinion_h1n1_risk,0.04696271442853933
+opinion_h1n1_vacc_effective,0.037799274015171434
+opinion_seas_sick_from_vacc,0.0367130403980194
+age_group_18 - 34 Years,0.035600269921882796
+doctor_recc_h1n1,0.03024602587779183
+health_insurance,0.028214955404509454

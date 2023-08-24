@@ -51,7 +51,7 @@ class ModelIteration:
         display(self.stats.set_index('Model'))
     
     @staticmethod
-    def tune(estimator, param_grid, X, y, method='grid'):
+    def tune(estimator, param_grid, X, y, random_state=42, method='grid'):
 
         """
         Perform hyperparameter tuning using GridSearchCV or RandomizedSearchCV.
@@ -71,7 +71,9 @@ class ModelIteration:
         if method == 'grid':
             search = GridSearchCV(estimator=estimator, param_grid=param_grid, cv=5, scoring='recall')
         elif method == 'random':
-            search = RandomizedSearchCV(estimator=estimator, param_distributions=param_grid, cv=5, n_iter=10, n_jobs=-1, scoring='recall')
+            search = RandomizedSearchCV(
+                estimator=estimator, param_distributions=param_grid, cv=5, n_iter=10, n_jobs=-1, scoring='recall', random_state=random_state
+            )
         else:
             raise ValueError("Method must be either 'grid' or 'random'.")
 

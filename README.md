@@ -54,6 +54,8 @@ Feature Importance
 In our analysis, we conducted a thorough examination of feature importance within our best-performing model, "Tuned Random Forest (New Features)." This model exhibited exceptional predictive capabilities and understanding the importance of different features sheds light on the factors driving vaccine uptake predictions.
 We discovered that several key feature categories played a significant role in the model's predictions:
 
+![Feature Importances, Top 10](img/feature_importances.png)
+
 # ** Features Importance Visualization (Feature Score Or Coefficients)
 
 -Behavioral Features: Variables related to individual behaviors, including “behavioral_avoidance”, “behavioral_face_mask”, “behavioral_wash_hands”, and “behavioral_large_gatherings”, were found to be highly influential. These features reflect proactive measures individuals take to protect themselves against the flu, thus impacting their likelihood of taking the seasonal flu vaccine.
