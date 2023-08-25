@@ -56,19 +56,6 @@ We discovered that several key feature categories played a significant role in t
 
 ![Feature Importances, Top 10](img/feature_importances.png)
 
-# ** Features Importance Visualization (Feature Score Or Coefficients)
-
--Behavioral Features: Variables related to individual behaviors, including “behavioral_avoidance”, “behavioral_face_mask”, “behavioral_wash_hands”, and “behavioral_large_gatherings”, were found to be highly influential. These features reflect proactive measures individuals take to protect themselves against the flu, thus impacting their likelihood of taking the seasonal flu vaccine.
-
--Opinion Features: Features such as “opinion_h1n1_vacc_effective”, “opinion_h1n1_risk”, and “opinion_seas_vacc_effective” were also prominent. These variables capture individuals' perceptions of vaccine effectiveness and the perceived risk associated with the flu, which can strongly influence their vaccine decisions.
-
--Doctor Recommendation: The presence of a doctor recommendation (doctor_recc_h1n1) emerged as a significant predictor. A healthcare professional's endorsement can carry substantial weight in influencing an individual's decision to take the vaccine.
-
--Education Level: Education, as represented by the "education" feature, was observed to have a notable impact. Higher levels of education often correlate with better health literacy and a greater understanding of the benefits of vaccination.
-
--H1N1 Vaccine History: Individuals' prior experience with the H1N1 vaccine (h1n1_vaccine) was found to be influential, suggesting that past vaccination behavior is a strong predictor of seasonal flu vaccine uptake.
-
-Additionally, there is an unidentified sector of activities that appears to have a significant impact on vaccine uptake. Unfortunately, due to limitations in the available data, we are unable to identify or analyze this sector further. Understanding the nature and characteristics of this unidentified sector could provide valuable insights into vaccination behavior but remains a challenge without additional information.
 
 
 ## **Conclusions**
