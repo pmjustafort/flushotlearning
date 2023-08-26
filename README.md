@@ -96,3 +96,17 @@ For the next steps, it's imperative to dig deeper into more granular demographic
 Partnering with healthcare and community organizations will be crucial in rolling out these strategies. Their local reach and credibility can greatly amplify the effectiveness of our programs. To ensure that our efforts are yielding the desired outcomes, follow-up surveys should be conducted after the implementation of each campaign or initiative. These surveys will help us understand the impact of our actions and offer data for further refinements.
 
 Lastly, continual optimization of our machine learning models is necessary. By incorporating more data and possibly exploring more advanced algorithms, we aim to improve the predictive accuracy of our models. This, in turn, will contribute to more effective and efficient vaccination campaigns, helping us reach our ultimate goal of increasing seasonal vaccine uptake.
+
+## Repository Structure
+
+```
+.
+|-- data/
+|-- img/
+|-- model_iteration/
+|-- presentation/
+|-- .gitignore
+|-- index.ipynb
+|-- LICENSE
+|-- README.md
+```
