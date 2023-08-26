@@ -19,6 +19,7 @@ August 25<sup>th</sup>, 2023
     - [Age Group Delineation](#age-group-delineation)
 - [Recommendations](#recommendations)
 - [Next Steps](#next-steps)
+- [Repository Structure](#repository-structure)
 
 ---
 
