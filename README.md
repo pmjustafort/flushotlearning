@@ -18,7 +18,7 @@ August 25<sup>th</sup>, 2023
     - [The Necessity of Doctor Recommendations](#the-necessity-of-doctor-recommendations)
     - [Age Group Delineation](#age-group-delineation)
 - [Recommendations](#recommendations)
-- [Limitatoins](#limitations)
+- [Limitations](#limitations)
 - [Next Steps](#next-steps)
 - [Repository Structure](#repository-structure)
 
