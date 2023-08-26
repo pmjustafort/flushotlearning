@@ -18,6 +18,7 @@ August 25<sup>th</sup>, 2023
     - [The Necessity of Doctor Recommendations](#the-necessity-of-doctor-recommendations)
     - [Age Group Delineation](#age-group-delineation)
 - [Recommendations](#recommendations)
+- [Limitatoins](#limitations)
 - [Next Steps](#next-steps)
 - [Repository Structure](#repository-structure)
 
@@ -89,6 +90,10 @@ Based on our findings, the following recommendations are suggested to increase s
 2. **Healthcare Provider Involvement**: Doctors play a crucial role in influencing vaccination decisions. Resources and incentives should be provided to healthcare professionals to encourage them to recommend seasonal vaccination during patient consultations.
 
 3. **Targeted Marketing for Different Age Groups**: With older individuals being more likely to get vaccinated, marketing strategies should be adapted to appeal to younger age groups. This could involve using platforms and messaging that resonate more with these demographics.
+
+## Limitations
+
+Though our model, based on Random Forest, serves as a useful tool for targeting vaccination campaigns, it does come with limitations. First, the model relies on the survey data available, which may not capture all influential variables like socioeconomic status or accessibility to healthcare facilities. Second, we optimized the model primarily for high recall, which could result in compromised performance on other metrics such as precision or F1-score. Third, while cross-validation provided an estimate of how the model may perform on new data, the lack of an entirely separate validation set means we can't be entirely sure of its generalizability. Finally, although Random Forest - the model we settled upon - is a robust algorithm, the hyperparameter tuning was conducted within a limited scope, leaving room for potential improvement in model performance. These limitations should guide interpretation of the current findings and inform next steps for future research.
 
 ## Next Steps
 
